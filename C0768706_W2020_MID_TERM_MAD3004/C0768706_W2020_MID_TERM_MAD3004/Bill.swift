@@ -16,7 +16,7 @@ class Bill:IDisplay{
     var billType:Bills
     var totalBillAmount:Double
 
-    init(billId:Int,billDate:DateFormatter,billType:Bills,totalBillAmount:Double)
+init(billId:Int,billDate:DateFormatter,billType:Bills,totalBillAmount:Double)
     {
         self.billId = billId
         self.billDate = billDate

@@ -8,22 +8,22 @@
 
 import Foundation
 class Hydro: Bill {
-    var AgencyName:String
-    var UnitsConsumed:Int
-    var RatePerUnit:Float
+    var agencyName:String
+    var unitsConsumed:Int
+    var ratePerUnit:Float
     
-    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,AgencyName:String,UnitsConsumed:Int,RatePerUnit:Float)
+    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,agencyName:String,unitsConsumed:Int,ratePerUnit:Float)
     {
-        super.init(billId: billId,billDate: billDate,billType: billType,totalBillAmount: totalBillAmount )
-        self.AgencyName = AgencyName
-        self.UnitsConsumed = UnitsConsumed
-        self.RatePerUnit = RatePerUnit
-    }
+
+        self.agencyName = agencyName
+        self.unitsConsumed = unitsConsumed
+        self.ratePerUnit = ratePerUnit
+        super.init(billId: billId,billDate: billDate,billType: billType,totalBillAmount: totalBillAmount)    }
      override func display() {
         super.display()
-        print("Agency Name : \(self.AgencyName)")
-        print("Units Consumed : \(self.UnitsConsumed)")
-        print("Rate Per Unit : \(self.RatePerUnit)")
+        print("Agency Name : \(self.agencyName)")
+        print("Units Consumed : \(self.unitsConsumed)")
+        print("Rate Per Unit : \(self.ratePerUnit)")
     }
     
 }
