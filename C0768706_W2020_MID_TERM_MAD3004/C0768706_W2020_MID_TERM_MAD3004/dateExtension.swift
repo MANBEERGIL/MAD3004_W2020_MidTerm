@@ -1,5 +1,5 @@
 //
-//  Stringextension.swift
+//  dateExtension.swift
 //  C0768706_W2020_MID_TERM_MAD3004
 //
 //  Created by MANBEER KAUR on 2020-02-14.
@@ -7,9 +7,3 @@
 //
 
 import Foundation
-extension String{
-    
-    
-    
-    
-}

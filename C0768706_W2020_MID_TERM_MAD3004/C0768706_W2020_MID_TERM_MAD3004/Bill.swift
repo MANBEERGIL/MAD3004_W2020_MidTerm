@@ -12,11 +12,11 @@ enum Bills
 import Foundation
 class Bill:IDisplay{
     var billId:Int
-    var billDate:String
+    var billDate:DateFormatter
     var billType:Bills
     var totalBillAmount:Double
 
-init(billId:Int,billDate:String,billType:Bills,totalBillAmount:Double)
+init(billId:Int,billDate:DateFormatter,billType:Bills,totalBillAmount:Double)
     {
         self.billId = billId
         self.billDate = billDate
@@ -31,5 +31,6 @@ init(billId:Int,billDate:String,billType:Bills,totalBillAmount:Double)
         print("Total Bill Amount : \(totalBillAmount)")
         
     }
+    
     
 }

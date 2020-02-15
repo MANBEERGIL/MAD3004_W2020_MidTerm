@@ -23,7 +23,6 @@ class Customer
     }
     
     
-    var billDictionary = [String:Double]()
     
 
     
