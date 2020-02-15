@@ -7,3 +7,16 @@
 //
 
 import Foundation
+class Customer
+{
+    var customerId:Int
+    var firstName:String
+    var lastName:String
+    var fullName:String
+    var emailId:String
+    init(customerId:Int,firstName:String,lastName:String,fullName:String,emailId:String)
+    {
+        
+    }
+}
+    
