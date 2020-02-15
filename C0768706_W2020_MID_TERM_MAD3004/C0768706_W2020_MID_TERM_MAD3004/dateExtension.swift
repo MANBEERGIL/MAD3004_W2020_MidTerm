@@ -7,3 +7,18 @@
 //
 
 import Foundation
+extension DateFormatter{
+    
+    func dateFormatter()
+    {
+        let dateFormatterGet = DateFormatter()
+        dateFormatterGet.dateFormat = "yyyy-MM-dd HH:mm:ss"
+
+        let dateFormatterPrint = DateFormatter()
+        dateFormatterPrint.dateFormat = "MMM dd,yyyy"
+
+        let date: NSDate? = dateFormatterGet.date(from: "2016-02-29 12:24:26") as NSDate?
+        print(dateFormatterPrint.string(from: date! as Date))    }
+    
+    
+}
