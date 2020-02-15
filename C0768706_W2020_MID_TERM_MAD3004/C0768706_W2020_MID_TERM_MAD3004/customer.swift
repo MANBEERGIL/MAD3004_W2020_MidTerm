@@ -14,9 +14,20 @@ class Customer
     var lastName:String
     var fullName:String
     var emailId:String
-    init(customerId:Int,firstName:String,lastName:String,fullName:String,emailId:String)
-    {
-        
+    init(customerId:Int,firstName:String,lastName:String,fullName:String,emailId:String) {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.fullName = fullName
+        self.emailId = emailId
     }
+    
+    
+    var billDictionary = [String:Double]()
+    
+
+    
+    
+    
 }
     
