@@ -24,6 +24,7 @@ init(billId:Int,billDate:DateFormatter,billType:Bills,totalBillAmount:Double)
         self.totalBillAmount = totalBillAmount
         
     }
+    
     func display(){
         print("Bill ID : \(billId)")
         print("Bill Date : \(billDate)")

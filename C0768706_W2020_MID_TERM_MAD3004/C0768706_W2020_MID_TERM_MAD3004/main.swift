@@ -7,6 +7,5 @@
 //
 
 import Foundation
-
-
-
+let date = DateFormatter()
+date.dateFormatter()

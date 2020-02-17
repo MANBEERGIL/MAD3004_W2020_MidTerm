@@ -37,9 +37,6 @@ class Mobile: Bill {
         print("Minute Used: \(minuteUsed)")
         print("Rate Per Minute: \(ratePerMinute)")
         
-        
-        
-        
     }
     
 }
