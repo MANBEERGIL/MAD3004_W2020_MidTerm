@@ -25,7 +25,7 @@ class Hydro: Bill {
         super.display()
         print("Agency Name : \(self.agencyName)")
         print("Units Consumed : \(self.unitsConsumed)")
-        print("Rate Per Unit : \(self.ratePerUnit)")
+        print("Rate Per Unit : \(self.ratePerUnit.ratePerUnit())")
     }
     
 }
