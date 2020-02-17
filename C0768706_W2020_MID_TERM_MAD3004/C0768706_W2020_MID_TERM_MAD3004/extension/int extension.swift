@@ -15,11 +15,14 @@ extension Int {
     func minuteUsed()->String{
         return "\(self) minutes"
     }
-    func internetUsed() ->String
+    func internetUsedMobile() ->String
     {
         return "\(self) GB "
     }
-    func internetGbUsed() -> String {
+    func internetGbUsedHome() -> String {
         return "\(self) GB"
+    }
+    func billInTotal()-> String{
+        return "$\(self)"
     }
 }

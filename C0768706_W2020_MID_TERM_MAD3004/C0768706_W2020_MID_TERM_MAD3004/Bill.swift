@@ -29,7 +29,7 @@ init(billId:Int,billDate:DateFormatter,billType:Bills,totalBillAmount:Double)
         print("Bill ID : \(billId)")
         print("Bill Date : \(billDate)")
         print("Bill Type : \(billType)")
-        print("Total Bill Amount : \(totalBillAmount)")
+        print("Total Bill Amount : \(totalBillAmount.billInTotal())")
         
     }
     

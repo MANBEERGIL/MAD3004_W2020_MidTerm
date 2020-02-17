@@ -23,4 +23,5 @@ class Internet: Bill {
         print("Internet GB Used: \(self.internetGbUsedHome)")
         print("Rate Per GB: \(self.ratePerGB)")
     }
+    
 }
