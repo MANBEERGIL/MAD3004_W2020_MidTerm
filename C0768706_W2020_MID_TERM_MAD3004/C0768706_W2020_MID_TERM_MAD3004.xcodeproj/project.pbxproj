@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD17ECDF23FAF92A00A23A99 /* int extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECDE23FAF92A00A23A99 /* int extension.swift */; };
 		BD403C0C23F75C30005B2CE9 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C0B23F75C30005B2CE9 /* Mobile.swift */; };
 		BD403C0E23F7634D005B2CE9 /* internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C0D23F7634D005B2CE9 /* internet.swift */; };
 		BD403C1123F76A3B005B2CE9 /* customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C1023F76A3B005B2CE9 /* customer.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD17ECDE23FAF92A00A23A99 /* int extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "int extension.swift"; sourceTree = "<group>"; };
 		BD403C0B23F75C30005B2CE9 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		BD403C0D23F7634D005B2CE9 /* internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internet.swift; sourceTree = "<group>"; };
 		BD403C1023F76A3B005B2CE9 /* customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				BD403C1423F780E2005B2CE9 /* dateExtension.swift */,
+				BD17ECDE23FAF92A00A23A99 /* int extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				BD8BB7E623F6656500ED7BD0 /* Bill.swift in Sources */,
 				BD8BB7E823F66A9D00ED7BD0 /* Hydro.swift in Sources */,
 				BD8BB7DF23F663A300ED7BD0 /* main.swift in Sources */,
+				BD17ECDF23FAF92A00A23A99 /* int extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
