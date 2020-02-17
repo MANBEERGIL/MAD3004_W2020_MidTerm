@@ -22,7 +22,5 @@ extension Int {
     func internetGbUsedHome() -> String {
         return "\(self) GB"
     }
-    func billInTotal()-> String{
-        return "$\(self)"
-    }
+    
 }

@@ -7,3 +7,6 @@
 //
 
 import Foundation
+func billInTotal()-> String{
+    return "$\(self)"
+}
