@@ -15,7 +15,7 @@ extension DateFormatter{
                 dateFormatterGet.dateFormat = "yyyy-MM-dd HH:mm:ss"
 
                 let dateFormatterPrint = DateFormatter()
-                dateFormatterPrint.dateFormat = "MMM dd,yyyy"
+                dateFormatterPrint.dateFormat = "yyyy/ mm/dd"
 
                 let date: NSDate? = dateFormatterGet.date(from: "2020-02- 14 12:24:26") as NSDate?
                 print(dateFormatterPrint.string(from: date! as Date))    }
