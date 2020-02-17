@@ -13,10 +13,10 @@ class Mobile: Bill {
     var planName:String
     var mobileNumber:String
     var internetUsedMobile:Int
-    var ratePerGb:Int
+    var ratePerGb:Float
     var minuteUsed:Int
-    var ratePerMinute:Int
-    init(billId: String, billDate: Date, billType: Bills ,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsedMobile:Int,ratePerGb:Int,minuteUsed:Int,ratePerMinute:Int,totalBillAmount:Double)
+    var ratePerMinute:Float
+    init(billId: String, billDate: Date, billType: Bills ,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsedMobile:Int,ratePerGb:Float,minuteUsed:Int,ratePerMinute:Float,totalBillAmount:Double)
     {
         self.mobileManufacturerName = mobileManufacturerName
         self.planName = planName

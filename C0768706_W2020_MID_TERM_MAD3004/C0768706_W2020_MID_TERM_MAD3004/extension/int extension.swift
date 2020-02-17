@@ -23,7 +23,5 @@ extension Int {
         return "\(self) GB"
     }
     
-    func ratePerGB() -> String {
-        return "$\(self)"
-    }
+    
 }
