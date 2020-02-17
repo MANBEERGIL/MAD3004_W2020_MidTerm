@@ -36,6 +36,22 @@ c3.addBill(bill: i2, billId: i2.billId)
 c3.addBill(bill: h2, billId: h2.billId)
 var customers = Array <Customer>()
 customers.append(c1)
+customers.append(c2)
+func customersById(id:String){
+     for m in customers
+           {
+               if (id == m.customerId)
+               {
+                m.display()
+                   
+               }
+               else
+               {
+                   print("\t Customer  \(id) not found")
+               }
+           }
+           }
+
 
 
 
