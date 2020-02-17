@@ -9,19 +9,32 @@
 import Foundation
 let date = DateFormatter()
 date.dateFormat = "YYYY/mm/dd"
-var h1 = Hydro(billId: "HYD001", billDate: Date, billType: .HYDRO, agencyName: <#T##String#>, unitsConsumed: 50, ratePerUnit:5,totalBillAmount:110.0)
+var h1 = Hydro(billId: "HYD001", billDate: Date(), billType: .HYDRO, agencyName: "Toronto Hydro",unitsConsumed:50,ratePerUnit:5,totalBillAmount:110.0)
+
+var h2 = Hydro(billId: "HYD002", billDate: Date(), billType: .HYDRO, agencyName: "BC Hydro", unitsConsumed: 65, ratePerUnit: 7, totalBillAmount: 455)
+
 var m1 = Mobile(billId: "MOB001", billDate: Date(), billType: .MOBILE, mobileManufacturerName: "Oppo inc.", planName: "LTE+3G 4GB", mobileNumber: "6476854431", internetUsedMobile: 4, ratePerGb:0.50, minuteUsed: 200, ratePerMinute: 0.40, totalBillAmount: 82.0)
 
 var m2 = Mobile(billId: "MOB002", billDate: Date(), billType: .MOBILE, mobileManufacturerName: "Apple inc.", planName: "LTE+3G 8GB", mobileNumber: "6476854451", internetUsedMobile: 7, ratePerGb: 0.60, minuteUsed: 300, ratePerMinute: 0.30, totalBillAmount: 94.2)
 
 var i1 = Internet(billId: "INT002", billDate: Date(), billType: .INTERNET, providerName: "Bell", internetGbUsedHome: 50, ratePerGB: 1.5,totalBillAmount:75.0)
 
+var i2 = Internet(billId: "INT002", billDate: Date(), billType: .INTERNET, providerName: "Rogers", internetGbUsedHome: 35, ratePerGB: 2.5, totalBillAmount:87.5 )
+
 var c1 = Customer(customerId: "COO1", firstName: "Manbeer", lastName: "Kaur", emailId: "manbeergill545@gmail.com")
+
 var c2 = Customer(customerId: "C002", firstName: "Manpreet", lastName: "Kaur", emailId: "manpreetsran454@gmail.com")
+
+var c3 = Customer(customerId: "C003", firstName: "Geetanjali", lastName: "Gupta", emailId: "geetanjaligupta154@gmail.com")
+
 
 c1.addBill(bill: m1, billId: m1.billId)
 c2.addBill(bill: i1, billId: i1.billId)
-c1.addBill(bill: m3, billId: m3.billId)
+c1.addBill(bill: h1, billId: h1.billId)
+
+
+
+
 c1.display()
 c2.display()
 
