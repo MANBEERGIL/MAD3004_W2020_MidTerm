@@ -33,10 +33,10 @@ class Mobile: Bill {
         print("Mobile Manufaturer Name: \(self.mobileManufacturerName)")
         print("Plan name : \(self.planName)")
         print("Mobile Number: \(self.mobileNumber)")
-        print("Internet Used in mobile: \(self.internetUsedMobile)")
-        print("Rate Per GB : \(self.ratePerGb)")
+        print("Internet Used in mobile: \(self.internetUsedMobile.internetUsedMobile())")
+        print("Rate Per GB : \(self.ratePerGb.ratePerGB())")
         print("Minute Used: \(minuteUsed)")
-        print("Rate Per Minute: \(ratePerMinute)")
+        print("Rate Per Minute: \(ratePerMinute.ratePerMinute())")
         
     }
     
