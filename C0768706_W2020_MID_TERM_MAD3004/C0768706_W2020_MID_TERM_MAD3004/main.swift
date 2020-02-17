@@ -34,7 +34,8 @@ c1.addBill(bill: h1, billId: h1.billId)
 c3.addBill(bill: m2, billId: m2.billId)
 c3.addBill(bill: i2, billId: i2.billId)
 c3.addBill(bill: h2, billId: h2.billId)
-
+var customers = Array <Customer>()
+customers.append(c1)
 
 
 
