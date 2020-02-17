@@ -16,7 +16,7 @@ class Mobile: Bill {
     var ratePerGb:Int
     var minuteUsed:Int
     var ratePerMinute:Int
-    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsedMobile:Int,ratePerGb:Int,minuteUsed:Int,ratePerMinute:Int)
+    init(billId: String, billDate: Date, billType: Bills ,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsedMobile:Int,ratePerGb:Int,minuteUsed:Int,ratePerMinute:Int)
     {
         self.mobileManufacturerName = mobileManufacturerName
         self.planName = planName
@@ -25,7 +25,7 @@ class Mobile: Bill {
         self.ratePerGb = ratePerGb
         self.minuteUsed = minuteUsed
         self.ratePerMinute = ratePerMinute
-        super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+        super.init(billId: billId, billDate: billDate, billType: billType)
         }
     override func display() {
         super.display()
