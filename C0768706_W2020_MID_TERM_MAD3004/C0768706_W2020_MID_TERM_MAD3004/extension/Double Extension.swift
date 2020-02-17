@@ -7,6 +7,8 @@
 //
 
 import Foundation
+Extension Double{
 func billInTotal()-> String{
     return "$\(self)"
+}
 }
