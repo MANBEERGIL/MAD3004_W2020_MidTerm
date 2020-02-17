@@ -14,7 +14,7 @@ class Bill:IDisplay{
     var billId:String
     var billDate:Date
     var billType:Bills
-    var totalBillAmount:Double = 0.0
+    var totalBill:Double = 0.0
 
 init(billId:String,billDate:Date,billType:Bills)
     {
@@ -28,7 +28,8 @@ init(billId:String,billDate:Date,billType:Bills)
         print("Bill ID : \(billId)")
         print("Bill Date : \(billDate)")
         print("Bill Type : \(billType)")
-        print("Total Bill Amount : \(totalBillAmount.billInTotal())")
+        print("Total Bill:\(totalBill.billInTotal())")
+
         
     }
     
