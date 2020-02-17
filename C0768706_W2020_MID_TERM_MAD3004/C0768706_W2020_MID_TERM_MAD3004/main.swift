@@ -11,7 +11,7 @@ let date = DateFormatter()
 date.dateFormat = "YYYY/mm/dd"
 var h1 = Hydro(billId: "HYD001", billDate: Date(), billType: .HYDRO, agencyName: "Toronto Hydro",unitsConsumed:50,ratePerUnit:5,totalBillAmount:110.0)
 
-var h2 = Hydro(billId: "HYD002", billDate: Date(), billType: .HYDRO, agencyName: "BC Hydro", unitsConsumed: 65, ratePerUnit: 7, totalBillAmount: 455)
+var h2 = Hydro(billId: "HYD002", billDate: Date(), billType: .HYDRO, agencyName: "BC Hydro", unitsConsumed: 65, ratePerUnit: 6, totalBillAmount: 390)
 
 var m1 = Mobile(billId: "MOB001", billDate: Date(), billType: .MOBILE, mobileManufacturerName: "Oppo inc.", planName: "LTE+3G 4GB", mobileNumber: "6476854431", internetUsedMobile: 4, ratePerGb:0.50, minuteUsed: 200, ratePerMinute: 0.40, totalBillAmount: 82.0)
 
@@ -31,12 +31,16 @@ var c3 = Customer(customerId: "C003", firstName: "Geetanjali", lastName: "Gupta"
 c1.addBill(bill: m1, billId: m1.billId)
 c2.addBill(bill: i1, billId: i1.billId)
 c1.addBill(bill: h1, billId: h1.billId)
+c3.addBill(bill: m2, billId: m2.billId)
+c3.addBill(bill: i2, billId: i2.billId)
+c3.addBill(bill: h2, billId: h2.billId)
 
 
 
 
 c1.display()
 c2.display()
+c3.display()
 
 
 

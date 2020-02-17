@@ -12,12 +12,12 @@ extension DateFormatter{
     func dateFormatter()
             {
                 let dateFormatterGet = DateFormatter()
-                dateFormatterGet.dateFormat = "yyyy-MM-dd HH:mm:ss"
+                dateFormatterGet.dateFormat = "yyyy-MM-dd"
 
                 let dateFormatterPrint = DateFormatter()
                 dateFormatterPrint.dateFormat = "yyyy/ mm/dd"
 
-                let date: NSDate? = dateFormatterGet.date(from: "2020-02- 14 12:24:26") as NSDate?
+                let date: NSDate? = dateFormatterGet.date(from: "2020-02- 1") as NSDate?
                 print(dateFormatterPrint.string(from: date! as Date))    }
             
 
