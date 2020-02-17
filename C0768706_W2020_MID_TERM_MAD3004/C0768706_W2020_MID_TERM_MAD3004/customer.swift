@@ -64,7 +64,7 @@ class Customer
             b.value.display()
             print("___________________________________")
         }
-        print("Total amount of bill to pay :\(calculateTotalBill())")
+        print("Total amount of bill to pay :\(calculateTotalBill().billInTotal())")
         print("\t ________________________________")
         
         
