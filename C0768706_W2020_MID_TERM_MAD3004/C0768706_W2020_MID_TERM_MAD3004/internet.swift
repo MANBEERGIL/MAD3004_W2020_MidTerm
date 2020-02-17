@@ -9,18 +9,18 @@
 import Foundation
 class Internet: Bill {
     var providerName:String
-    var internetGbUsed:Int
+    var internetGbUsedHome:Int
     var ratePerGB:Int
-    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,providerName:String,internetGbUsed:Int,ratePerGB:Int) {
+    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,providerName:String,internetGbUsedHome:Int,ratePerGB:Int) {
         self.providerName = providerName
-        self.internetGbUsed = internetGbUsed
+        self.internetGbUsedHome = internetGbUsedHome
         self.ratePerGB = ratePerGB
         super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
     override func display() {
         super.display()
         print("Provider Name: \(self.providerName)")
-        print("Internet GB Used: \(self.internetGbUsed)")
+        print("Internet GB Used: \(self.internetGbUsedHome)")
         print("Rate Per GB: \(self.ratePerGB)")
     }
 }

@@ -12,4 +12,14 @@ extension Int {
         return "\(self) units"
         
     }
+    func minuteUsed()->String{
+        return "\(self) minutes"
+    }
+    func internetUsed() ->String
+    {
+        return "\(self) GB "
+    }
+    func internetGbUsed() -> String {
+        return "\(self) GB"
+    }
 }

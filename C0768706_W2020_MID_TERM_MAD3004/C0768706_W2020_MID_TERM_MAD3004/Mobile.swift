@@ -12,16 +12,16 @@ class Mobile: Bill {
     var mobileManufacturerName:String
     var planName:String
     var mobileNumber:String
-    var internetUsed:Int
+    var internetUsedMobile:Int
     var ratePerGb:Int
     var minuteUsed:Int
     var ratePerMinute:Int
-    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsed:Int,ratePerGb:Int,minuteUsed:Int,ratePerMinute:Int)
+    init(billId: Int, billDate: DateFormatter, billType: Bills, totalBillAmount: Double,mobileManufacturerName:String,planName:String,mobileNumber:String,internetUsedMobile:Int,ratePerGb:Int,minuteUsed:Int,ratePerMinute:Int)
     {
         self.mobileManufacturerName = mobileManufacturerName
         self.planName = planName
         self.mobileNumber = mobileNumber
-        self.internetUsed = internetUsed
+        self.internetUsedMobile = internetUsedMobile
         self.ratePerGb = ratePerGb
         self.minuteUsed = minuteUsed
         self.ratePerMinute = ratePerMinute
@@ -32,7 +32,7 @@ class Mobile: Bill {
         print("Mobile Manufaturer Name: \(self.mobileManufacturerName)")
         print("Plan name : \(self.planName)")
         print("Mobile Number: \(self.mobileNumber)")
-        print("Internet Used: \(self.internetUsed)")
+        print("Internet Used in mobile: \(self.internetUsedMobile)")
         print("Rate Per GB : \(self.ratePerGb)")
         print("Minute Used: \(minuteUsed)")
         print("Rate Per Minute: \(ratePerMinute)")
