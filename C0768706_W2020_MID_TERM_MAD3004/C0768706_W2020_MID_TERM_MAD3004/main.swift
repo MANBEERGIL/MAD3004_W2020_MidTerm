@@ -8,4 +8,5 @@
 
 import Foundation
 let date = DateFormatter()
-date.dateFormatter()
+date.dateormat()
+var b1 = Bill(billId: "HYD001", billDate: date.date (from:date.date(from: "2020-02-14")!), billType: <#T##Bills#>, totalBillAmount: <#T##Double#>)
