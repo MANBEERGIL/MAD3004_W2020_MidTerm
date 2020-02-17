@@ -11,4 +11,9 @@ extension Float{
     func ratePerGB() -> String {
         return "$\(self)"
     }
+    
+    func ratePerMinute() -> String {
+        return "$\(self)"
+    }
+    
 }

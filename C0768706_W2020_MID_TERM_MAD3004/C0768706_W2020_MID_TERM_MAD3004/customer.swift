@@ -9,7 +9,7 @@
 import Foundation
 class Customer
 {
-    var customerId:Int
+    var customerId:String
     var firstName:String
     var lastName:String
     var fullName:String
@@ -19,7 +19,7 @@ class Customer
      
     var emailId:String?
     var totalBillToPay:Double = 0.0
-    lazy var bills = [String:Bill](); init(customerId:Int,firstName:String,lastName:String,fullName:String,emailId:String) {
+    lazy var bills = [String:Bill](); init(customerId:String,firstName:String,lastName:String,emailId:String) {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
