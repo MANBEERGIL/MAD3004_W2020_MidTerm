@@ -26,6 +26,7 @@ class Mobile: Bill {
         self.minuteUsed = minuteUsed
         self.ratePerMinute = ratePerMinute
         super.init(billId: billId, billDate: billDate, billType: billType)
+        self.totalBillAmount = totalBillAmount
         }
     override func display() {
         super.display()
