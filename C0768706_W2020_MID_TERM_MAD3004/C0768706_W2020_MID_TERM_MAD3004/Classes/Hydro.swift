@@ -22,11 +22,7 @@ class Hydro: Bill {
         self.totalBill = totalBill
         
     }
-    func totalBillAmount()
-    {
-        _ = Float(unitsConsumed) * ratePerUnit
-        
-    }
+
      override func display() {
         super.display()
         print("Agency Name : \(self.agencyName)")
