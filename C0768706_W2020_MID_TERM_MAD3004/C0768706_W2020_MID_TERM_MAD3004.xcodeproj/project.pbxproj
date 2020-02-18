@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD17ECDF23FAF92A00A23A99 /* int extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECDE23FAF92A00A23A99 /* int extension.swift */; };
-		BD17ECE123FB046200A23A99 /* Double Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECE023FB046200A23A99 /* Double Extension.swift */; };
-		BD17ECE323FB3CA100A23A99 /* float extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECE223FB3CA100A23A99 /* float extension.swift */; };
+		BD17ECDF23FAF92A00A23A99 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECDE23FAF92A00A23A99 /* Int+Extension.swift */; };
+		BD17ECE123FB046200A23A99 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECE023FB046200A23A99 /* Double+Extension.swift */; };
+		BD17ECE323FB3CA100A23A99 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17ECE223FB3CA100A23A99 /* Float+Extension.swift */; };
 		BD403C0C23F75C30005B2CE9 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C0B23F75C30005B2CE9 /* Mobile.swift */; };
 		BD403C0E23F7634D005B2CE9 /* internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C0D23F7634D005B2CE9 /* internet.swift */; };
 		BD403C1123F76A3B005B2CE9 /* customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD403C1023F76A3B005B2CE9 /* customer.swift */; };
@@ -33,9 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD17ECDE23FAF92A00A23A99 /* int extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "int extension.swift"; sourceTree = "<group>"; };
-		BD17ECE023FB046200A23A99 /* Double Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double Extension.swift"; sourceTree = "<group>"; };
-		BD17ECE223FB3CA100A23A99 /* float extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "float extension.swift"; sourceTree = "<group>"; };
+		BD17ECDE23FAF92A00A23A99 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		BD17ECE023FB046200A23A99 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		BD17ECE223FB3CA100A23A99 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 		BD403C0B23F75C30005B2CE9 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		BD403C0D23F7634D005B2CE9 /* internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internet.swift; sourceTree = "<group>"; };
 		BD403C1023F76A3B005B2CE9 /* customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer.swift; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				BD403C1423F780E2005B2CE9 /* dateExtension.swift */,
-				BD17ECDE23FAF92A00A23A99 /* int extension.swift */,
-				BD17ECE023FB046200A23A99 /* Double Extension.swift */,
-				BD17ECE223FB3CA100A23A99 /* float extension.swift */,
+				BD17ECDE23FAF92A00A23A99 /* Int+Extension.swift */,
+				BD17ECE023FB046200A23A99 /* Double+Extension.swift */,
+				BD17ECE223FB3CA100A23A99 /* Float+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -179,12 +179,12 @@
 				BD8BB7EA23F66BEF00ED7BD0 /* IDisplay.swift in Sources */,
 				BD403C1123F76A3B005B2CE9 /* customer.swift in Sources */,
 				BD403C0E23F7634D005B2CE9 /* internet.swift in Sources */,
-				BD17ECE323FB3CA100A23A99 /* float extension.swift in Sources */,
-				BD17ECE123FB046200A23A99 /* Double Extension.swift in Sources */,
+				BD17ECE323FB3CA100A23A99 /* Float+Extension.swift in Sources */,
+				BD17ECE123FB046200A23A99 /* Double+Extension.swift in Sources */,
 				BD8BB7E623F6656500ED7BD0 /* Bill.swift in Sources */,
 				BD8BB7E823F66A9D00ED7BD0 /* Hydro.swift in Sources */,
 				BD8BB7DF23F663A300ED7BD0 /* main.swift in Sources */,
-				BD17ECDF23FAF92A00A23A99 /* int extension.swift in Sources */,
+				BD17ECDF23FAF92A00A23A99 /* Int+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
