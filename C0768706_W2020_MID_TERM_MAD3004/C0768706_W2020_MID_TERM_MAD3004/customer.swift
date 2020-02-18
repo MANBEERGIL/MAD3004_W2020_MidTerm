@@ -50,7 +50,7 @@ class Customer
             print("\t no bill to pay for this customer")
         }
         for b in bills {
-            totalBillToPay += b.value.totalBillAmount
+            totalBillToPay += b.value.totalBill
         }
         return totalBillToPay
     }

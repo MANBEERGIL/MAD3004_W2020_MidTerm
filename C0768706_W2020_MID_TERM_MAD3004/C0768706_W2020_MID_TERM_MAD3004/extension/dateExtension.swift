@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension DateFormatter{
+extension Date{
     
     func dateFormatter()
             {
