@@ -9,13 +9,13 @@
 import Foundation
 extension Float{
     func ratePerGB() -> String {
-        return "$ \(self)"
+        return "$\(self)"
     }
     
     func ratePerMinute() -> String {
-        return "$ \(self)"
+        return "$\(self)"
     }
     func ratePerUnit()->String{
-        return "$ \(self)"
+        return "$\(self)"
     }
 }

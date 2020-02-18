@@ -9,6 +9,6 @@
 import Foundation
 extension Double{
 func billInTotal()-> String{
-    return "$ \(self)"
+    return "$\(self)"
 }
 }
